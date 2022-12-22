@@ -1,0 +1,53 @@
+/*button*/
+.btn-container{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 2px;
+}
+
+/* card css */
+.card{
+    display: flex;
+    /* float: left; */
+   /* margin-right: 58px; */
+   margin-top: 15px;
+   justify-content: space-around;
+   align-items: center;
+   /* border-width:1rem; */
+}
+.cd{
+    border-radius: 16px;
+    margin-top: -13px;
+    height: 11rem;
+}
+.upper_data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.upper_data h4{
+    font-size: 18px;
+    color: rgba(17,17,17,0.849);
+    letter-spacing: .5px;
+    font-weight: 500;
+}
+.last_data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span{
+    font-size: 15px;
+    letter-spacing: .4px;
+    color:rgba(17,17,17,0.849) ;
+}
+/* .last_data p{
+font-size: 1px;
+letter-spacing: .4px;
+font-weight: 400;
+color:rgba(17,17,17,0.849) ;
+} */
+
+.new{
+    width: fit-content;
+}
